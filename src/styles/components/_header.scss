@@ -1,0 +1,23 @@
+.header
+{
+    nav 
+    {
+        ul 
+        {
+            a
+            {
+                text-decoration: none;
+                color: aqua;
+            }
+            a.nav-active
+            {
+                background: rgb(133, 92, 133);
+                
+                &:hover 
+                {
+                    background: rgb(108, 92, 133);
+                }
+            }
+        }
+    }
+}
