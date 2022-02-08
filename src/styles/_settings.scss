@@ -1,4 +1,12 @@
 
+*
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
 // Mixin ----------------------------------------------
 @mixin flex ($just: center, $align: center, $dir:column) 
 {
